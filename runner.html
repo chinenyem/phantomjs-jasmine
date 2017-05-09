@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Jasmine Test Runner</title>
+  </head>
+
+  <body>
+
+    <script type="text/javascript" src="/home/ubuntu/.nvm/versions/node/v4.7.3/lib/node_modules/phantom-jasmine/vendor/jasmine-1.2.0/jasmine.js"></script>
+    <script type="text/javascript" src="/home/ubuntu/.nvm/versions/node/v4.7.3/lib/node_modules/phantom-jasmine/vendor/jasmine-1.2.0/jasmine-html.js"></script>
+
+    <link rel="stylesheet" href="/home/ubuntu/.nvm/versions/node/v4.7.3/lib/node_modules/phantom-jasmine/vendor/jasmine-1.2.0/jasmine.css" title="" type="" />
+    
+    
+    <script src="/home/ubuntu/workspace/examples/js/example.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/home/ubuntu/workspace/examples/js/example2.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/home/ubuntu/workspace/examples/js/example_spec.js" type="text/javascript" charset="utf-8"></script>
+
+    
+    <script type="text/javascript" src="/home/ubuntu/.nvm/versions/node/v4.7.3/lib/node_modules/phantom-jasmine/lib/console-runner.js"></script>
+
+    <script type="text/javascript">
+      var console_reporter = new jasmine.ConsoleReporter(false, "none");
+
+      jasmine.getEnv().addReporter(new jasmine.HtmlReporter());
+      jasmine.getEnv().addReporter(console_reporter);
+      jasmine.getEnv().execute();
+    </script>
+  </body>
+</html>
