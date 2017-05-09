@@ -1,6 +1,8 @@
 JavaScript Test Driven Development
 PhantomJS and Jasmine
 
+=====================
+
 Test Driven Development can be overwhelming.  It sounds like a lot of hard, tedious, work when beginning to code. Some may say writing code to do nothing but test the code you’re going to use seems useless and a waste of time.  However it is important to use TDD.  It forces your brain to think! Writing test forces me to think about what exactly I am trying to achieve. I have to be specific about what I am trying to do. Once it’s clear then I can write the code.  Practicing TDD encourages me to write tests and write smaller, easier-to-understand units of code. 
 Basically, your program will have a bunch of functions and classes. You want to make sure that, no matter what you throw at them, they'll perform how you want them to. For example, this function should always return a string that says "hello" in it. Testing ensures that everything goes down exactly how you planned. 
  
